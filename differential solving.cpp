@@ -23,3 +23,6 @@ float func(float x , float y)
 {
   return((2*x*x-3*y*y+x)/10);
 }
+
+
+//bhag bhosdike
