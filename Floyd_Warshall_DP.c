@@ -62,3 +62,5 @@ int main()
 	floyd_warshall(vertices, cost);
 	return 0;
 }
+
+#why life is so dull?
