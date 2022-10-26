@@ -53,7 +53,7 @@ int main()
 		for(j = 0 ; j < vertices ; j++)
 		{
 			if(cost[i][j] == INF)
-				printf("INF ");
+				printf("INFINITY ");
 			else
 				printf("%d ",cost[i][j]);
 		}
