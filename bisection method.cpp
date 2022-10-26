@@ -10,11 +10,7 @@ int main ()
     scanf("%f", &allerr);
     bisection (&x, a, b, &itr);
 
-/* Use the printf statement given below
-printf("Iteration Count=%d, root = %6.4f\n", itr, x1);
-fun is the function and 'a' and 'b' are the points of initial interval [a,b]
-x1 is the current root and x is the root of the previous iteration
-*/
+//the do while loop
 do
 {
   if(fun(a)*fun(x)<0)
@@ -42,3 +38,4 @@ void bisection(float *x,float a,float b,int *itr)
   *x=(a+b)/2;
   ++(*itr);
 }
+//end
